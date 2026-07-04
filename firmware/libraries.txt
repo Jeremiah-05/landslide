@@ -1,0 +1,20 @@
+Arduino Libraries Required
+===========================
+
+Install via Arduino IDE: Sketch > Include Library > Manage Libraries
+
+Board support:
+  - ESP8266 board package (Boards Manager URL:
+    https://arduino.esp8266.com/stable/package_esp8266com_index.json)
+
+Libraries (used by LandslideDetection.ino):
+  - Adafruit GFX Library
+  - Adafruit SSD1306
+  - DHT sensor library (Adafruit)
+  - Blynk (BlynkSimpleEsp8266)
+  - ThingSpeak
+
+Additional libraries (used only by experimental/gps-sms-alert):
+  - TinyGPS++
+
+Board setting: NodeMCU 1.0 (ESP-12E Module)

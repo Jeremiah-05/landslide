@@ -1,2 +1,27 @@
-# Large video file (exceeds GitHub's 100MB limit)
+# Credentials - never commit real values
+secrets.h
+**/secrets.h
+
+# Arduino build artifacts
+*.hex
+*.bin
+*.elf
+build/
+.pio/
+.vscode/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+
+# LibreOffice / Office lock files
+~$*
+
+# Large files (exceed GitHub limits or are redundant)
 embedded project video.mp4
+Landslide-Detection-System.zip
+IMG-20250409-WA0010.jpg
+Presentation .pptx
+Presentation iot (1).pptx
+embedded system 1218 report.pdf
